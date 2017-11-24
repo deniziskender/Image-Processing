@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( TAKEHOME-S000704 )
+find_package( OpenCV REQUIRED )
+add_executable( TAKEHOME-S000704 TAKEHOME-S000704.cpp )
+target_link_libraries( TAKEHOME-S000704 ${OpenCV_LIBS} )
